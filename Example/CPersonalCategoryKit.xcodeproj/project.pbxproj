@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01B26B1BC058741504FE47AC /* libPods-CPersonalCategoryKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D7C88CCED1A3FE34D1209 /* libPods-CPersonalCategoryKit_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		BBC9C58EA374F3774272D487 /* Pods_CPersonalCategoryKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86270C041E986A68316E5295 /* Pods_CPersonalCategoryKit_Tests.framework */; };
-		E8DDCB10080295B404859079 /* Pods_CPersonalCategoryKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042C38070D8D64E5A8A0E771 /* Pods_CPersonalCategoryKit_Example.framework */; };
+		B0250BF88B791BE8E51DA07E /* libPods-CPersonalCategoryKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 621E39796353244F79CDA2A6 /* libPods-CPersonalCategoryKit_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		042C38070D8D64E5A8A0E771 /* Pods_CPersonalCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPersonalCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0896008B28749CA9516FB87B /* Pods-CPersonalCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPersonalCategoryKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CPersonalCategoryKit_Tests/Pods-CPersonalCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4ED5C12A2D4CAB4329D24655 /* Pods-CPersonalCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPersonalCategoryKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-CPersonalCategoryKit_Tests/Pods-CPersonalCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CPersonalCategoryKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPersonalCategoryKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,12 +58,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		68F2AF27517495CA09276BDB /* CPersonalCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CPersonalCategoryKit.podspec; path = ../CPersonalCategoryKit.podspec; sourceTree = "<group>"; };
-		6EA0F78AC7B91F646EADC2FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		621E39796353244F79CDA2A6 /* libPods-CPersonalCategoryKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CPersonalCategoryKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F2AF27517495CA09276BDB /* CPersonalCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CPersonalCategoryKit.podspec; path = ../CPersonalCategoryKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6EA0F78AC7B91F646EADC2FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		86270C041E986A68316E5295 /* Pods_CPersonalCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPersonalCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9C49177F263550E79B6444FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9C49177F263550E79B6444FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B10D7C88CCED1A3FE34D1209 /* libPods-CPersonalCategoryKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CPersonalCategoryKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB348C0C1BB96E895508CFC /* Pods-CPersonalCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPersonalCategoryKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-CPersonalCategoryKit_Example/Pods-CPersonalCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EC8F0C0237486F8A9BC821EF /* Pods-CPersonalCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPersonalCategoryKit_Example.release.xcconfig"; path = "Target Support Files/Pods-CPersonalCategoryKit_Example/Pods-CPersonalCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				E8DDCB10080295B404859079 /* Pods_CPersonalCategoryKit_Example.framework in Frameworks */,
+				B0250BF88B791BE8E51DA07E /* libPods-CPersonalCategoryKit_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				BBC9C58EA374F3774272D487 /* Pods_CPersonalCategoryKit_Tests.framework in Frameworks */,
+				01B26B1BC058741504FE47AC /* libPods-CPersonalCategoryKit_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,6 @@
 				0896008B28749CA9516FB87B /* Pods-CPersonalCategoryKit_Tests.debug.xcconfig */,
 				4ED5C12A2D4CAB4329D24655 /* Pods-CPersonalCategoryKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -135,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				042C38070D8D64E5A8A0E771 /* Pods_CPersonalCategoryKit_Example.framework */,
-				86270C041E986A68316E5295 /* Pods_CPersonalCategoryKit_Tests.framework */,
+				621E39796353244F79CDA2A6 /* libPods-CPersonalCategoryKit_Example.a */,
+				B10D7C88CCED1A3FE34D1209 /* libPods-CPersonalCategoryKit_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				2AA1D4625988B47FAEBCD66E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +256,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,24 +294,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2AA1D4625988B47FAEBCD66E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CPersonalCategoryKit_Example/Pods-CPersonalCategoryKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CPersonalCategoryKit/CPersonalCategoryKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CPersonalCategoryKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CPersonalCategoryKit_Example/Pods-CPersonalCategoryKit_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		635E90AC59DB95975FEA66FC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -494,9 +475,11 @@
 			baseConfigurationReference = BFB348C0C1BB96E895508CFC /* Pods-CPersonalCategoryKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CPersonalCategoryKit/CPersonalCategoryKit-Prefix.pch";
 				INFOPLIST_FILE = "CPersonalCategoryKit/CPersonalCategoryKit-Info.plist";
+				MARKETING_VERSION = 1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,9 +493,11 @@
 			baseConfigurationReference = EC8F0C0237486F8A9BC821EF /* Pods-CPersonalCategoryKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CPersonalCategoryKit/CPersonalCategoryKit-Prefix.pch";
 				INFOPLIST_FILE = "CPersonalCategoryKit/CPersonalCategoryKit-Info.plist";
+				MARKETING_VERSION = 1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

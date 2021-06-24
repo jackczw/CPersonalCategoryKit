@@ -1,0 +1,27 @@
+{
+  "name": "CPersonalCategoryKit",
+  "version": "1",
+  "summary": "这是个人组件库对应的mediator组件",
+  "description": "TODO: 这是个人组件库对应的mediator组件这是个人组件库对应的mediator组件这是个人组件库对应的mediator组件这是个人组件库对应的mediator组件这是个人组件库对应的mediator组件这是个人组件库对应的mediator组件这是个人组件库对应的mediator组件这是个人组件库对应的mediator组件",
+  "homepage": "https://github.com/jackczw/CPersonalCategoryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jackczw": "1565201275@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/jackczw/CPersonalCategoryKit.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CPersonalCategoryKit/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}

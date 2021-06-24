@@ -1,0 +1,6 @@
+framework module CPersonalCategoryKit {
+  umbrella header "CPersonalCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
